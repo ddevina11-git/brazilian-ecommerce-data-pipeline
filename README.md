@@ -32,17 +32,11 @@ Olist wants to understand their business performance to make data-driven decisio
 
 ## Architecture Diagram
 
-
+<img width="1024" height="1536" alt="Final Project Architecture Diagram" src="https://github.com/user-attachments/assets/79c2b604-f25d-4bae-ac17-92437b277f32" />
 
 ### Medallion Architecture
 
-Bronze Layer (Raw Data)
-↓
-Silver Layer (Cleaned, Validated, Deduplicated)
-↓
-Gold Layer (Business Aggregates, Star Schema)
-↓
-Power BI Dashboard
+Bronze Layer (Raw Data) --> Silver Layer (Cleaned, Validated, Deduplicated) --> Gold Layer (Business Aggregates, Star Schema) --> Power BI Dashboard
 
 ## ETL Process
 
@@ -65,7 +59,7 @@ Power BI Dashboard
 
 ## Database Schema (ERD)
 
-
+<img width="1297" height="1018" alt="Final Project ERD Diagram" src="https://github.com/user-attachments/assets/d1d12893-a398-445f-8d40-ca44b07588ff" />
 
 **Key Tables:**
 
