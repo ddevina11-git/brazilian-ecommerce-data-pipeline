@@ -44,7 +44,6 @@ Gold Layer (Business Aggregates, Star Schema)
 ↓
 Power BI Dashboard
 
-
 ## ETL Process
 
 ### 1. Extract (Bronze)
@@ -66,7 +65,7 @@ Power BI Dashboard
 
 ## Database Schema (ERD)
 
-![ERD Diagram](./docs/erd_diagram.png)
+
 
 **Key Tables:**
 
@@ -140,6 +139,7 @@ LIMIT 10;
 ```
 
 ## Challenges & Solutions
+
 | Challenge |	Solution |
 |-----------|----------|
 | Choosing the right platform |	Selected Microsoft Fabric for unified Lakehouse + Warehouse + Power BI |
@@ -148,11 +148,13 @@ LIMIT 10;
 |Geolocation duplicates |	Grouped by zip code prefix, averaged lat/long (1M+ → ~20,000 rows) |
 
 ## Limitations
+
 - Data covers 2016-2018 only (not real-time)
 - Limited Fabric architecture knowledge (bootcamp students)
 - Geolocation precision reduced (averaged coordinates)
 
 ## Next Steps
+
 - Build interactive Power BI dashboard with maps and filters
 - Automate pipeline with scheduled notebook execution
 - Add time-series analysis (monthly trends)
