@@ -1,9 +1,9 @@
 # 01 - Extract & Load to Bronze Lakehouse
 
-# Overview
+## Overview
 This notebook downloads the Olist dataset from Kaggle and uploads all 9 CSV files to the Bronze Lakehouse in Microsoft Fabric.
 
-# Steps:
+## Steps:
 1. Download dataset from Kaggle
 2. Unzip files
 3. Upload to Bronze Lakehouse
